@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 900;
+}
+
+main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(auto, 10);
+    grid-template-areas: 
+    "box1 box1 box1 box1 box1 box1 box1 box1 box2 box2"
+    "box1 box1 box1 box1 box1 box1 box1 box1 box2 box2"
+    "box1 box1 box1 box1 box1 box1 box1 box1 box2 box2"
+    "box1 box1 box1 box1 box1 box1 box1 box1 box2 box2"
+    "box1 box1 box1 box1 box1 box1 box1 box1 box3 box3"
+    "box1 box1 box1 box1 box1 box1 box1 box1 box3 box3"
+    "box1 box1 box1 box1 box1 box1 box1 box1 box3 box3"
+    "box1 box1 box1 box1 box1 box1 box1 box1 box3 box3"
+    "box1 box1 box1 box1 box1 box1 box1 box1 box3 box3"
+    "box1 box1 box1 box1 box1 box1 box1 box1 box3 box3";
+}
+
+.item1 {
+    grid-area: box1;
+    background-color: #eba40e;
+}
+
+.item2 {
+    grid-area: box2;
+    background-color: #fff;
+}
+
+.item3 {
+    grid-area: box3;
+    background-color: #eba40e;
+}
+
+.pict {
+    position: absolute;
+    height: 75vh;
+    top: 12.5%;
+    right: 5%;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    font-size: 6.5em;
+}
+
+.prau {
+    top: 20%;
+    left: 5%;
+}
+
+p {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    right: 75%;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    font-size: 1em;
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    right: 50%;
+    color: rgb(255, 255, 255);
+}
+
+ 
